@@ -1,0 +1,22 @@
+extern crate protobuf;
+
+pub mod POGOProtos_Data;
+pub mod POGOProtos_Data_Battle;
+pub mod POGOProtos_Data_Capture;
+pub mod POGOProtos_Data_Gym;
+pub mod POGOProtos_Data_Logs;
+pub mod POGOProtos_Data_Player;
+pub mod POGOProtos_Enums;
+pub mod POGOProtos_Inventory;
+pub mod POGOProtos_Inventory_Item;
+pub mod POGOProtos_Map;
+pub mod POGOProtos_Map_Fort;
+pub mod POGOProtos_Map_Pokemon;
+pub mod POGOProtos_Networking_Envelopes;
+pub mod POGOProtos_Networking_Requests;
+pub mod POGOProtos_Networking_Requests_Messages;
+pub mod POGOProtos_Networking_Responses;
+pub mod POGOProtos_Settings;
+pub mod POGOProtos_Settings_Master;
+pub mod POGOProtos_Settings_Master_Item;
+pub mod POGOProtos_Settings_Master_Pokemon;

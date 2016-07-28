@@ -1,0 +1,16 @@
+[package]
+name = "pokemon-go-protobuf"
+version = "0.1.0"
+authors = ["Rock Neurotiko <miguelglafuente@gmail.com>"]
+
+[lib]
+name = "pokemon_go_protobuf"
+path = "src/lib.rs"
+
+[[bin]]
+name = "pokemongotest"
+path = "src/bin.rs"
+
+
+[dependencies]
+protobuf = "1.0.23"
