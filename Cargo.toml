@@ -12,6 +12,7 @@ readme = "README.md"
 keywords = ["pokemon", "go", "protobuf", "types"]
 license = "BeerWare"
 
+exclude = ["compile.sh", "POGOProtos/*"]
 
 [lib]
 name = "pokemon_go_protobuf"
