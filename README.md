@@ -7,7 +7,7 @@ Exported from and maintained at https://github.com/AeonLucid/POGOProtos
 
     ``` toml
     [dependencies]
-    pokemon_go_protobuf = "*"
+    pokemon-go-protobuf = "*"
     ```
 
 - Use it!
