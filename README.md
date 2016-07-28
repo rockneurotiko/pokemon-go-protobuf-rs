@@ -1,5 +1,7 @@
 # Pokémon Go Protobuffers for Rust
-Exported from and maintained at https://github.com/AeonLucid/POGOProtos
+[![Crates.io](https://img.shields.io/crates/v/pokemon-go-protobuf.svg?maxAge=2592000)](https://crates.io/crates/pokemon-go-protobuf)
+
+Rust library for Pokemon Go proto buffer files, exported from the awesome protos of [https://github.com/AeonLucid/POGOProtos](https://github.com/AeonLucid/POGOProtos)
 
 ## Usage
 
