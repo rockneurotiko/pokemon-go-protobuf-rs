@@ -3,16 +3,25 @@ Exported from and maintained at https://github.com/AeonLucid/POGOProtos
 
 ## Usage
 
-``` rust
-extern crate pokemon_go_protobuf;
+- First of all, add this crate to your dependencies in the `Cargo.toml` file (replace `*` with the version you want):
 
-use pokemon_go_protobuf::POGOProtos_Data::PlayerData;
+    ``` toml
+    [dependencies]
+    pokemon_go_protobuf = "*"
+    ```
 
-pub fn main() {
-    let x = PlayerData::new();
-    // Start using the protobuf structs to encode/decode
-}
-```
+- Use it!
+
+    ``` rust
+    extern crate pokemon_go_protobuf;
+
+    use pokemon_go_protobuf::POGOProtos_Data::PlayerData;
+
+    pub fn main() {
+        let x = PlayerData::new();
+        // Start using the protobuf structs to encode/decode
+    }
+    ```
 
 ## Update this repository
 
