@@ -6436,7 +6436,7 @@ impl PokemonSettings {
     }
 
     pub fn get_rarity(&self) -> super::POGOProtos_Enums::PokemonRarity {
-        self.rarity.unwrap_or(super::POGOProtos_Enums::PokemonRarity::NORMAL)
+        self.rarity.unwrap_or(super::POGOProtos_Enums::PokemonRarity::POKEMON_RARITY_NORMAL)
     }
 
     // optional float pokedex_height_m = 15;
