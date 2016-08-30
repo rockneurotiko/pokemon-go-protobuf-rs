@@ -1,6 +1,6 @@
 [package]
 name = "pokemon-go-protobuf"
-version = "0.1.2"
+version = "0.1.4"
 authors = ["Rock Neurotiko <miguelglafuente@gmail.com>"]
 
 description = "Pokemon Go proto buffer types."
